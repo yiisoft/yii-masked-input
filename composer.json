@@ -1,0 +1,38 @@
+{
+    "name": "yiisoft/yii2-maskedinput",
+    "description": "Masked input extension for the Yii framework",
+    "keywords": ["yii2", "masked input"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2-maskedinput/issues",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2-maskedinput"
+    },
+    "authors": [
+        {
+            "name": "Kartik Visweswaran",
+            "email": "kartikv2@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.1.0",
+        "bower-asset/jquery.inputmask": "~3.2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\widgets\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.1.x-dev"
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

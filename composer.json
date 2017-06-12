@@ -19,7 +19,7 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.1.0",
-        "bower-asset/jquery.inputmask": "~3.3.5"
+        "bower-asset/inputmask": "~3.3.5"
     },
     "autoload": {
         "psr-4": {

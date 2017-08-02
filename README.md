@@ -1,5 +1,10 @@
-Masked Input Extension for Yii 2
-================================
+<p align="center">
+    <a href="https://github.com/yiisoft" target="_blank">
+        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
+    </a>
+    <h1 align="center">Masked Input Extension for Yii 2</h1>
+    <br>
+</p>
 
 This is the Masked Input extension for [Yii framework 2.1](http://www.yiiframework.com). It provides a masked input widget based on
 [jQuery Input Mask plugin](http://robinherbots.github.io/Inputmask/).

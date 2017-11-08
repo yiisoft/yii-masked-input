@@ -33,6 +33,8 @@ or add
 
 to the require section of your `composer.json` file.
 
+Note that this package contains the MaskedInput widget for Yii versions 2.1 or above, in 2.0 the widget is bundled with the framework package, so no additional install is needed.
+
 Usage
 -----
 

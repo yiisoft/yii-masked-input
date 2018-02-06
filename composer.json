@@ -15,18 +15,17 @@
         {
             "name": "Kartik Visweswaran",
             "email": "kartikv2@gmail.com"
+        },
+        {
+            "name": "Alexander Makarov",
+            "email": "sam@rmcreative.ru"
         }
     ],
     "require": {
-        "yiisoft/yii2": "dev-master",
+        "yiisoft/yii2": "~2.0.13",
         "bower-asset/inputmask": "~3.3.5"
     },
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/yiisoft/yii2",
-            "vendor-alias": "yiisoft21"
-        },
         {
             "type": "composer",
             "url": "https://asset-packagist.org"

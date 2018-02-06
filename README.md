@@ -13,6 +13,7 @@ For license information check the [LICENSE](LICENSE.md)-file.
 
 [![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-maskedinput/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-maskedinput)
 [![Total Downloads](https://poser.pugx.org/yiisoft/yii2-maskedinput/downloads.png)](https://packagist.org/packages/yiisoft/yii2-maskedinput)
+[![Build Status](https://travis-ci.org/yiisoft/yii2-maskedinput.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-maskedinput)
 
 Installation
 ------------

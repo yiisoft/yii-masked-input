@@ -7,8 +7,10 @@
 
 ### Additional info
 
-| Q                | A
-| ---------------- | ---
-| Yii vesion       |
-| PHP version      |
-| Operating system |
+| Q                           | A
+| --------------------------- | ---
+| Yii version                 |
+| Yii Masked Input version    |
+| JQuery Masked Input version |
+| PHP version                 |
+| Operating system            |

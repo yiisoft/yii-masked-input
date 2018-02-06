@@ -24,6 +24,6 @@ class MaskedInputAsset extends AssetBundle
         'jquery.inputmask.bundle.js'
     ];
     public $depends = [
-        'yii\web\YiiAsset'
+        \yii\jquery\YiiAsset::class
     ];
 }

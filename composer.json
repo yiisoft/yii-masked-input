@@ -18,13 +18,27 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.1.0",
+        "yiisoft/yii2": "dev-master",
         "bower-asset/inputmask": "~3.3.5"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yiisoft/yii2",
+            "vendor-alias": "yiisoft21"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "yii\\widgets\\": "src"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {"yiiunit\\maskedinput\\": "tests/"}
     },
     "extra": {
         "branch-alias": {

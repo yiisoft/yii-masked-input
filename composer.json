@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.13",
+        "yiisoft/yii2": "2.1.x-dev",
         "bower-asset/inputmask": "~3.3.5"
     },
     "repositories": [

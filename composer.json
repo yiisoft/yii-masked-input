@@ -22,8 +22,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "2.1.x-dev",
-        "bower-asset/inputmask": "~3.3.5"
+        "yiisoft/yii2-jquery": "1.0.x-dev",
+        "npm-asset/inputmask": "~3.3.5"
     },
     "repositories": [
         {
@@ -37,15 +37,13 @@
         }
     },
     "autoload-dev": {
-        "psr-4": {"yiiunit\\maskedinput\\": "tests/"}
+        "psr-4": {
+            "yiiunit\\maskedinput\\": "tests"
+        }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.1.x-dev"
-        },
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
+            "dev-master": "1.0.x-dev"
         }
     }
 }

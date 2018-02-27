@@ -1,7 +1,7 @@
 Assets Setup
 ============
 
-This extensions relies on [Bower](http://bower.io/) and/or [NPM](https://www.npmjs.org/) packages for the asset installation.
+This extensions relies on [NPM](https://www.npmjs.org/) packages for the asset installation.
 Before using this package you should decide in which way you will install those packages in your project.
 
 
@@ -20,14 +20,13 @@ In the `composer.json` of your project, add the following lines:
 ]
 ```
 
-Adjust `@npm` and `@bower` in you application configuration:
+Adjust `@npm` alias in you application configuration:
 
 ```php
 return [
     //...
     'aliases' => [
-        '@bower' => '@vendor/bower-asset',
-        '@npm'   => '@vendor/npm-asset',
+        '@npm' => '@vendor/npm-asset',
     ],
     //...
 ];
@@ -48,8 +47,7 @@ will be placed, if you want to publish them using Yii:
 ```json
 "extra": {
     "asset-installer-paths": {
-        "npm-asset-library": "vendor/npm",
-        "bower-asset-library": "vendor/bower"
+        "npm-asset-library": "vendor/npm"
     }
 }
 ```
@@ -80,7 +78,7 @@ In the `composer.json` of your project, add the following lines in order to prev
 
 ```json
 "replace": {
-    "bower-asset/inputmask": ">=3.3.5"
+    "npm-asset/inputmask": ">=3.3.5"
 },
 ```
 
@@ -93,7 +91,7 @@ In the `composer.json` of your project, add the following lines in order to prev
 
 ```json
 "replace": {
-    "bower-asset/inputmask": ">=3.3.5"
+    "npm-asset/inputmask": ">=3.3.5"
 },
 ```
 

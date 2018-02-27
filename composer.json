@@ -21,6 +21,8 @@
             "email": "sam@rmcreative.ru"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "yiisoft/yii2-jquery": "1.0.x-dev",
         "npm-asset/inputmask": "~3.3.5"

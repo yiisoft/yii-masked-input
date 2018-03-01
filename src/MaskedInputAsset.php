@@ -15,7 +15,7 @@ use yii\web\AssetBundle;
  * Includes client assets of [jQuery input mask plugin](https://github.com/RobinHerbots/Inputmask).
  *
  * @author Kartik Visweswaran <kartikv2@gmail.com>
- * @since 2.0
+ * @since 1.0
  */
 class MaskedInputAsset extends AssetBundle
 {

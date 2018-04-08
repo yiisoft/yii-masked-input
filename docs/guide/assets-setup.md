@@ -58,9 +58,9 @@ Then you can run composer install/update command to pick up JQuery Input Mask as
   to asset-packagist.
 
 
-## Using Bower/NPM client directly
+## Using NPM client directly
 
-You can install JQuery Input Mask assets directly via Bower or NPM client.
+You can install JQuery Input Mask assets directly via NPM client.
 In the `package.json` of your project, add the following lines:
 
 ```json

@@ -10,11 +10,12 @@ echo MaskedInput::widget([
     'mask' => '999-999-9999',
 ]);
 ```
+
 You can also use this widget in an [[ActiveForm]] using the [[ActiveField::widget()|widget()]]
 method, for example like this:
 
 ```php
-<?= $form->field($model, 'from_date')->widget(yii\widgets\MaskedInput::class, [
+<?= $form->field($model, 'phone')->widget(yii\widgets\MaskedInput::class, [
     'mask' => '999-999-9999',
 ]) ?>
 ```

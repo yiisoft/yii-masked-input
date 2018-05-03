@@ -11,11 +11,12 @@
 php composer.phar require --prefer-dist yiisoft/yii2-maskedinput
 ```
 
-または、あなたの `composer.json` ファイルの `require` セクションに下記を追加して下さい。
+または、あなたの `composer.json` ファイルの `require` セクションに
 
 ```
 "yiisoft/yii2-maskedinput": "~1.0.0"
 ```
 
-このパッケージは、Yii バージョン 2.1 以上のための MaskedInput ウィジェットを含むものです。
-2.0 ではこのウィジェットはフレームワーク・パッケージに同梱されており、追加のインストールは必要が無いことに注意して下さい。
+を追加して下さい。
+
+このパッケージは、Yii バージョン 2.1 以上のための MaskedInput ウィジェットを含むものです。2.0 ではこのウィジェットはフレームワーク・パッケージに同梱されており、追加のインストールは必要が無いことに注意して下さい。

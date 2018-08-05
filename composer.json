@@ -1,8 +1,8 @@
 {
     "name": "yiisoft/yii2-maskedinput",
-    "description": "Masked input extension for the Yii framework",
+    "description": "Yii Framework Masked input widget Extension",
     "keywords": ["yii2", "masked input", "inputmask"],
-    "type": "yii2-extension",
+    "type": "library",
     "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/yiisoft/yii2-maskedinput/issues",
@@ -24,7 +24,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "yiisoft/yii2-jquery": "1.0.x-dev",
+        "yiisoft/yii2-jquery": "^1.0",
         "npm-asset/inputmask": "~3.3.5"
     },
     "repositories": [

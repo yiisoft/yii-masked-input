@@ -2,39 +2,27 @@
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
     </a>
-    <h1 align="center">Masked Input Extension for Yii 2</h1>
+    <h1 align="center">Yii Framework Masked input widget Extension</h1>
     <br>
 </p>
 
-This is the Masked Input extension for [Yii framework 2.1](http://www.yiiframework.com). It provides a masked input widget based on
+This is the Masked Input extension for [Yii framework](http://www.yiiframework.com). It provides a masked input widget based on
 [jQuery Input Mask plugin](http://robinherbots.github.io/Inputmask/).
 
 For license information check the [LICENSE](LICENSE.md)-file.
 
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-maskedinput/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-maskedinput)
-[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-maskedinput/downloads.png)](https://packagist.org/packages/yiisoft/yii2-maskedinput)
-[![Build Status](https://travis-ci.org/yiisoft/yii2-maskedinput.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-maskedinput)
+[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii-maskedinput/v/stable.png)](https://packagist.org/packages/yiisoft/yii-maskedinput)
+[![Total Downloads](https://poser.pugx.org/yiisoft/yii-maskedinput/downloads.png)](https://packagist.org/packages/yiisoft/yii-maskedinput)
+[![Build Status](https://travis-ci.org/yiisoft/yii-maskedinput.svg?branch=master)](https://travis-ci.org/yiisoft/yii-maskedinput)
 
 Installation
 ------------
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-Either run
-
 ```
-php composer.phar require --prefer-dist yiisoft/yii2-maskedinput
+composer require --prefer-dist yiisoft/yii-maskedinput
 ```
-
-or add
-
-```
-"yiisoft/yii2-maskedinput": "~1.0.0"
-```
-
-to the require section of your `composer.json` file.
-
-Note that this package contains the MaskedInput widget for Yii versions 2.1 or above, in 2.0 the widget is bundled with the framework package, so no additional install is needed.
 
 Usage
 -----

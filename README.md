@@ -11,9 +11,9 @@ This is the Masked Input extension for [Yii framework](http://www.yiiframework.c
 
 For license information check the [LICENSE](LICENSE.md)-file.
 
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii-maskedinput/v/stable.png)](https://packagist.org/packages/yiisoft/yii-maskedinput)
-[![Total Downloads](https://poser.pugx.org/yiisoft/yii-maskedinput/downloads.png)](https://packagist.org/packages/yiisoft/yii-maskedinput)
-[![Build Status](https://travis-ci.org/yiisoft/yii-maskedinput.svg?branch=master)](https://travis-ci.org/yiisoft/yii-maskedinput)
+[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii-masked-input/v/stable.png)](https://packagist.org/packages/yiisoft/yii-masked-input)
+[![Total Downloads](https://poser.pugx.org/yiisoft/yii-masked-input/downloads.png)](https://packagist.org/packages/yiisoft/yii-masked-input)
+[![Build Status](https://travis-ci.org/yiisoft/yii-masked-input.svg?branch=master)](https://travis-ci.org/yiisoft/yii-masked-input)
 
 Installation
 ------------
@@ -21,7 +21,7 @@ Installation
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
 ```
-composer require --prefer-dist yiisoft/yii-maskedinput
+composer require --prefer-dist yiisoft/yii-masked-input
 ```
 
 Usage

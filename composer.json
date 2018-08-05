@@ -1,15 +1,15 @@
 {
-    "name": "yiisoft/yii2-maskedinput",
+    "name": "yiisoft/yii-masked-input",
     "description": "Yii Framework Masked input widget Extension",
-    "keywords": ["yii2", "masked input", "inputmask"],
+    "keywords": ["yii", "masked input", "inputmask"],
     "type": "library",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yiisoft/yii2-maskedinput/issues",
+        "issues": "https://github.com/yiisoft/yii-masked-input/issues",
         "forum": "http://www.yiiframework.com/forum/",
         "wiki": "http://www.yiiframework.com/wiki/",
         "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2-maskedinput"
+        "source": "https://github.com/yiisoft/yii-masked-input"
     },
     "authors": [
         {

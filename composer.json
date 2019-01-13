@@ -24,14 +24,16 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "yiisoft/yii-jquery": "^1.0@dev",
+        "yiisoft/yii-jquery": "^3.0@dev",
         "npm-asset/inputmask": "~3.3.5"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.3",
         "yiisoft/di": "dev-master",
         "yiisoft/log": "dev-master",
-        "yiisoft/cache": "dev-master"
+        "yiisoft/cache": "dev-master",
+        "yiisoft/yii-web": "dev-master",
+        "hiqdev/composer-config-plugin": "dev-master"
     },
     "repositories": [
         {
@@ -51,7 +53,10 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "3.0.x-dev"
+        },
+        "config-plugin": {
+            "tests": "config/tests.php"
         }
     }
 }

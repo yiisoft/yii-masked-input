@@ -109,7 +109,7 @@ class MaskedInput extends InputWidget
      *
      * @throws InvalidConfigException if the "mask" property is not set.
      */
-    public function init()
+    public function init(): void
     {
         parent::init();
         if (empty($this->mask) && empty($this->clientOptions['alias'])) {

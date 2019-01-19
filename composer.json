@@ -33,7 +33,8 @@
         "yiisoft/log": "dev-master",
         "yiisoft/cache": "dev-master",
         "yiisoft/yii-web": "dev-master",
-        "hiqdev/composer-config-plugin": "dev-master"
+        "hiqdev/composer-config-plugin": "dev-master",
+        "npm-asset/jquery" : "*"
     },
     "repositories": [
         {

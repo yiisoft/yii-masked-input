@@ -9,6 +9,7 @@ namespace yiiunit\maskedinput;
 
 use yii\base\DynamicModel;
 use yii\widgets\MaskedInput;
+use yii\helpers\Yii;
 
 class MaskedInputTest extends TestCase
 {
@@ -23,7 +24,10 @@ class MaskedInputTest extends TestCase
 
     public function testRender()
     {
-        $widget = new MaskedInput([
+        $this->app->setAlias('@webroot/assets', '/tmp');
+
+        $widget = Yii::createObject([
+            '__class' => MaskedInput::class,
             'id' => 'test-masked-input',
             'name' => 'phone',
             'mask' => '999-999-9999',
@@ -37,7 +41,8 @@ class MaskedInputTest extends TestCase
     {
         $model = new DynamicModel(['phone' => '123456789']);
 
-        $widget = new MaskedInput([
+        $widget = Yii::createObject([
+            '__class' => MaskedInput::class,
             'id' => 'test-masked-input',
             'model' => $model,
             'attribute' => 'phone',

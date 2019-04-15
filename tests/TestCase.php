@@ -27,5 +27,4 @@ abstract class TestCase extends \yii\tests\TestCase
         parent::tearDown();
         FileHelper::removeDirectory(Yii::getAlias('@yiiunit/maskedinput/assets'));
     }
-
 }

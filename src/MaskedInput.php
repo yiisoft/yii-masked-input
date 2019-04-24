@@ -7,7 +7,7 @@
 
 namespace yii\widgets;
 
-use yii\base\InvalidConfigException;
+use yii\exceptions\InvalidConfigException;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\web\JsExpression;

@@ -2,10 +2,8 @@
 
 namespace yiiunit\maskedinput;
 
-use yii\di\Container;
-use yii\helpers\ArrayHelper;
-use yii\helpers\Yii;
 use yii\helpers\FileHelper;
+use yii\helpers\Yii;
 
 abstract class TestCase extends \yii\tests\TestCase
 {

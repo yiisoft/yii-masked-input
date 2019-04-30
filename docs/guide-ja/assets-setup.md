@@ -103,7 +103,7 @@ return [
         'assetManager' => [
             // バンドルをオーバーライドして CDN を使う
             'bundles' => [
-                'yii\widgets\MaskedInputAsset' => [
+                'Yiisoft\Yii\MaskedInput\MaskedInputAsset' => [
                     'sourcePath' => null,
                     'baseUrl' => 'https://cdn.jsdelivr.net/npm/inputmask@3.3.11',
                     'js' => [

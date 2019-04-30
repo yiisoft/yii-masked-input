@@ -40,7 +40,7 @@ You can also use this widget in an [[ActiveForm]] using the [[ActiveField::widge
 method, for example like this:
 
 ```php
-<?= $form->field($model, 'from_date')->widget(yii\widgets\MaskedInput::class, [
+<?= $form->field($model, 'from_date')->widget(Yiisoft\Yii\MaskedInput\MaskedInput::class, [
     'mask' => '999-999-9999',
 ]) ?>
 ```

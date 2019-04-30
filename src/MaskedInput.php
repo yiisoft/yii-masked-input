@@ -5,13 +5,14 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\widgets;
+namespace Yiisoft\Yii\MaskedInput;
 
 use yii\exceptions\InvalidConfigException;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\web\JsExpression;
 use yii\web\View;
+use yii\widgets\InputWidget;
 
 /**
  * MaskedInput generates a masked text input.
@@ -33,7 +34,7 @@ use yii\web\View;
  * method, for example like this:
  *
  * ```php
- * <?= $form->field($model, 'from_date')->widget(yii\widgets\MaskedInput::class, [
+ * <?= $form->field($model, 'from_date')->widget(Yiisoft\Yii\MaskedInput\MaskedInput::class, [
  *     'mask' => '999-999-9999',
  * ]) ?>
  * ```

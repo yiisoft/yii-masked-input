@@ -5,10 +5,10 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yiiunit\maskedinput;
+namespace Yiisoft\Yii\MaskedInput\Tests;
 
 use yii\base\DynamicModel;
-use yii\widgets\MaskedInput;
+use Yiisoft\Yii\MaskedInput\MaskedInput;
 use yii\helpers\Yii;
 
 class MaskedInputTest extends TestCase

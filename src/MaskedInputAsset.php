@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\widgets;
+namespace Yiisoft\Yii\MaskedInput;
 
 use yii\web\AssetBundle;
 
@@ -24,6 +24,6 @@ class MaskedInputAsset extends AssetBundle
         'jquery.inputmask.bundle.js'
     ];
     public $depends = [
-        \yii\jquery\YiiAsset::class
+        \Yiisoft\Yii\JQuery\YiiAsset::class
     ];
 }

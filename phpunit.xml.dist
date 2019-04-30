@@ -7,7 +7,7 @@
 		convertWarningsToExceptions="true"
 		stopOnFailure="false">
 		<testsuites>
-			<testsuite name="Yii Test Suite">
+			<testsuite name="Yii MaskedInput Test Suite">
 				<directory>./tests</directory>
 			</testsuite>
 		</testsuites>

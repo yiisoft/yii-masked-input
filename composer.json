@@ -45,12 +45,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "yii\\widgets\\": "src"
+            "Yiisoft\\Yii\\MaskedInput\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "yiiunit\\maskedinput\\": "tests"
+            "Yiisoft\\Yii\\MaskedInput\\Tests\\": "tests"
         }
     },
     "extra": {

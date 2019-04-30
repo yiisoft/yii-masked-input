@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\widgets;
+namespace Yiisoft\Yii\MaskedInput;
 
 use yii\web\AssetBundle;
 

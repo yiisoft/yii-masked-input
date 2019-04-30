@@ -1,6 +1,6 @@
 <?php
 
-namespace yiiunit\maskedinput;
+namespace Yiisoft\Yii\MaskedInput\Tests;
 
 use yii\helpers\FileHelper;
 use yii\helpers\Yii;
@@ -13,7 +13,7 @@ abstract class TestCase extends \yii\tests\TestCase
     protected function setUp()
     {
         parent::setUp();
-        FileHelper::createDirectory(Yii::getAlias('@yiiunit/maskedinput/assets'));
+        FileHelper::createDirectory(Yii::getAlias('@Yiisoft/Yii/MaskedInput/assets'));
     }
 
     /**
@@ -23,6 +23,6 @@ abstract class TestCase extends \yii\tests\TestCase
     protected function tearDown()
     {
         parent::tearDown();
-        FileHelper::removeDirectory(Yii::getAlias('@yiiunit/maskedinput/assets'));
+        FileHelper::removeDirectory(Yii::getAlias('@Yiisoft/Yii/MaskedInput/assets'));
     }
 }

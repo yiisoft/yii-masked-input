@@ -15,7 +15,7 @@ echo MaskedInput::widget([
 例えば、
 
 ```php
-<?= $form->field($model, 'phone')->widget(yii\widgets\MaskedInput::class, [
+<?= $form->field($model, 'phone')->widget(Yiisoft\Yii\MaskedInput\MaskedInput::class, [
     'mask' => '999-999-9999',
 ]) ?>
 ```

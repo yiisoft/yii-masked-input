@@ -1,7 +1,11 @@
 {
     "name": "yiisoft/yii-masked-input",
     "description": "Yii Framework Masked input widget Extension",
-    "keywords": ["yii", "masked input", "inputmask"],
+    "keywords": [
+        "yii",
+        "masked input",
+        "inputmask"
+    ],
     "type": "library",
     "license": "BSD-3-Clause",
     "support": {
@@ -35,7 +39,7 @@
         "yiisoft/cache": "dev-master",
         "yiisoft/yii-web": "dev-master",
         "hiqdev/composer-config-plugin": "dev-master",
-        "npm-asset/jquery" : "*"
+        "npm-asset/jquery": "*"
     },
     "repositories": [
         {
@@ -60,5 +64,8 @@
         "config-plugin": {
             "tests": "config/tests.php"
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }

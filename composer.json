@@ -15,30 +15,16 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yiisoft/yii-masked-input"
     },
-    "authors": [
-        {
-            "name": "Kartik Visweswaran",
-            "email": "kartikv2@gmail.com"
-        },
-        {
-            "name": "Alexander Makarov",
-            "email": "sam@rmcreative.ru"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "yiisoft/yii-jquery": "^3.0@dev",
-        "yiisoft/yii-core": "^3.0@dev",
         "npm-asset/inputmask": "~3.3.5",
         "php": "^7.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.4",
         "yiisoft/di": "^3.0@dev",
-        "yiisoft/log": "dev-master",
-        "yiisoft/cache": "dev-master",
-        "yiisoft/yii-web": "dev-master",
         "hiqdev/composer-config-plugin": "dev-master",
         "npm-asset/jquery": "*"
     },

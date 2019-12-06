@@ -13,7 +13,7 @@ For license information check the [LICENSE](LICENSE.md)-file.
 
 [![Latest Stable Version](https://poser.pugx.org/yiisoft/yii-masked-input/v/stable.png)](https://packagist.org/packages/yiisoft/yii-masked-input)
 [![Total Downloads](https://poser.pugx.org/yiisoft/yii-masked-input/downloads.png)](https://packagist.org/packages/yiisoft/yii-masked-input)
-[![Build Status](https://travis-ci.org/yiisoft/yii-masked-input.svg?branch=master)](https://travis-ci.org/yiisoft/yii-masked-input)
+[![Build Status](https://travis-ci.com/yiisoft/yii-masked-input.svg?branch=master)](https://travis-ci.com/yiisoft/yii-masked-input)
 
 Installation
 ------------

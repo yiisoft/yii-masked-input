@@ -19,7 +19,7 @@
     "prefer-stable": true,
     "require": {
         "yiisoft/yii-jquery": "^3.0@dev",
-        "npm-asset/inputmask": "~3.3.5",
+        "npm-asset/inputmask": "~5.0.0",
         "php": "^7.4"
     },
     "require-dev": {

@@ -16,6 +16,6 @@ return [
     'assetManager' => [
         '__class'   => \yii\web\AssetManager::class,
         'basePath'  => '@webroot/assets',
-        'baseUrl'   => '@web/assets',
+        'baseUrl'   => '@baseUrl/assets',
     ],
 ];

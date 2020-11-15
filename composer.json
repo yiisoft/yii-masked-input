@@ -55,5 +55,10 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "scripts": {
+        "test": [
+            "phpunit --colors --no-interaction"
+        ]
     }
 }

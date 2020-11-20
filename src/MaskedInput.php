@@ -1,6 +1,9 @@
 <?php
+
+declare(strict_types=1);
 /**
  * @link http://www.yiiframework.com/
+ *
  * @copyright Copyright (c) 2008 Yii Software LLC
  * @license http://www.yiiframework.com/license/
  */
@@ -43,6 +46,7 @@ use yii\widgets\InputWidget;
  * [jQuery input masked plugin](https://github.com/RobinHerbots/Inputmask).
  *
  * @author Kartik Visweswaran <kartikv2@gmail.com>
+ *
  * @since 1.0
  */
 class MaskedInput extends InputWidget
@@ -53,7 +57,7 @@ class MaskedInput extends InputWidget
     public const PLUGIN_NAME = 'inputmask';
 
     /**
-     * @var string|array|JsExpression the input mask (e.g. '99/99/9999' for date input). The following characters
+     * @var array|JsExpression|string the input mask (e.g. '99/99/9999' for date input). The following characters
      * can be used in the mask and are predefined:
      *
      * - `a`: represents an alpha character (A-Z, a-z)
@@ -85,16 +89,19 @@ class MaskedInput extends InputWidget
     public $aliases;
     /**
      * @var array the JQuery plugin options for the input mask plugin.
+     *
      * @see https://github.com/RobinHerbots/Inputmask
      */
     public $clientOptions = [];
     /**
      * @var array the HTML attributes for the input tag.
+     *
      * @see \yii\helpers\Html::renderTagAttributes() for details on how attributes are being rendered.
      */
     public $options = ['class' => 'form-control'];
     /**
      * @var string the type of the input tag. Currently only 'text' and 'tel' are supported.
+     *
      * @see https://github.com/RobinHerbots/Inputmask
      */
     public $type = 'text';
@@ -103,7 +110,6 @@ class MaskedInput extends InputWidget
      * @var string the hashed variable to store the pluginOptions
      */
     protected $_hashVar;
-
 
     /**
      * Initializes the widget.
@@ -138,6 +144,7 @@ class MaskedInput extends InputWidget
      * - 'data-plugin-inputmask' will store the hashed variable storing the plugin options.
      *
      * @param View $view the view instance
+     *
      * @author [Thiago Talma](https://github.com/thiagotalma)
      */
     protected function hashPluginOptions($view)
@@ -156,7 +163,7 @@ class MaskedInput extends InputWidget
         $options = $this->clientOptions;
         foreach ($options as $key => $value) {
             if (!$value instanceof JsExpression && in_array($key, ['oncomplete', 'onincomplete', 'oncleared', 'onKeyUp',
-                    'onKeyDown', 'onBeforeMask', 'onBeforePaste', 'onUnMask', 'isComplete', 'determineActiveMasksetIndex'], true)
+                'onKeyDown', 'onBeforeMask', 'onBeforePaste', 'onUnMask', 'isComplete', 'determineActiveMasksetIndex', ], true)
             ) {
                 $options[$key] = new JsExpression($value);
             }

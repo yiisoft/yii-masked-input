@@ -1,6 +1,9 @@
 <?php
+
+declare(strict_types=1);
 /**
  * @link http://www.yiiframework.com/
+ *
  * @copyright Copyright (c) 2008 Yii Software LLC
  * @license http://www.yiiframework.com/license/
  */
@@ -15,15 +18,16 @@ use yii\web\AssetBundle;
  * Includes client assets of [jQuery input mask plugin](https://github.com/RobinHerbots/Inputmask).
  *
  * @author Kartik Visweswaran <kartikv2@gmail.com>
+ *
  * @since 1.0
  */
 class MaskedInputAsset extends AssetBundle
 {
     public $sourcePath = '@npm/inputmask/dist';
     public $js = [
-        'jquery.inputmask.bundle.js'
+        'jquery.inputmask.bundle.js',
     ];
     public $depends = [
-        \Yiisoft\Yii\JQuery\YiiAsset::class
+        \Yiisoft\Yii\JQuery\YiiAsset::class,
     ];
 }

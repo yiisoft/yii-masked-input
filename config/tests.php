@@ -4,8 +4,8 @@ return [
     'app' => [
         'id' => 'testapp',
         'aliases' => [
-            '@bower'   => '@vendor/bower-asset',
-            '@npm'     => '@vendor/npm-asset',
+            '@bower' => '@vendor/bower-asset',
+            '@npm' => '@vendor/npm-asset',
         ],
     ],
     'request' => [
@@ -14,8 +14,8 @@ return [
         'scriptUrl' => '/index.php',
     ],
     'assetManager' => [
-        '__class'   => \yii\web\AssetManager::class,
-        'basePath'  => '@webroot/assets',
-        'baseUrl'   => '@baseUrl/assets',
+        '__class' => \yii\web\AssetManager::class,
+        'basePath' => '@webroot/assets',
+        'baseUrl' => '@baseUrl/assets',
     ],
 ];

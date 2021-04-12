@@ -30,7 +30,7 @@ class MaskedInputTest extends TestCase
         $this->app->setAlias('@webroot/assets', '/tmp');
 
         $widget = Yii::createObject([
-            '__class' => MaskedInput::class,
+            'class' => MaskedInput::class,
             'id' => 'test-masked-input',
             'name' => 'phone',
             'mask' => '999-999-9999',
@@ -45,7 +45,7 @@ class MaskedInputTest extends TestCase
         $model = new DynamicModel(['phone' => '123456789']);
 
         $widget = Yii::createObject([
-            '__class' => MaskedInput::class,
+            'class' => MaskedInput::class,
             'id' => 'test-masked-input',
             'model' => $model,
             'attribute' => 'phone',

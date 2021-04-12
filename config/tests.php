@@ -14,7 +14,7 @@ return [
         'scriptUrl' => '/index.php',
     ],
     'assetManager' => [
-        '__class' => \yii\web\AssetManager::class,
+        'class' => \yii\web\AssetManager::class,
         'basePath' => '@webroot/assets',
         'baseUrl' => '@baseUrl/assets',
     ],

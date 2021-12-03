@@ -30,7 +30,7 @@
         "spatie/phpunit-watcher": "^1.23",
         "vimeo/psalm": "^4.2",
         "yiisoft/composer-config-plugin": "dev-master",
-        "yiisoft/di": "^3.0@dev"
+        "yiisoft/di": "^1.0"
     },
     "repositories": [
         {

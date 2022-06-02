@@ -37,9 +37,11 @@ use yii\widgets\InputWidget;
  * method, for example like this:
  *
  * ```php
- * <?= $form->field($model, 'from_date')->widget(Yiisoft\Yii\MaskedInput\MaskedInput::class, [
- *     'mask' => '999-999-9999',
- * ]) ?>
+ * <?= $form
+ *     ->field($model, 'from_date')
+ *     ->widget(Yiisoft\Yii\MaskedInput\MaskedInput::class, [
+ *         'mask' => '999-999-9999',
+ *     ]) ?>
  * ```
  *
  * The masked text field is implemented based on the
